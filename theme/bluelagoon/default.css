@@ -1,0 +1,147 @@
+html {
+	margin:0px;
+	padding:0px 0px;
+}
+body {
+	background:#e7dec6 url(/theme/bluelagoon/background.jpg) 0px 19px repeat-x;
+	text-align:center;
+	margin:0px;
+	padding:0px 0px;
+	font-family:Lucida Grande,Arial,sans-serif;
+	font-size:10pt;
+	color:#261b0f;
+}
+
+.main_container {
+	width:750px;
+	text-align:left;
+	margin:0px auto;
+	
+}
+
+
+
+.header_container {
+	height:170px;
+	background:url(/theme/bluelagoon/header.jpg) top center no-repeat;
+	color:#261b0f;
+	margin:0px;
+	padding:0px;
+	position:relative;
+}
+
+.header h1 a, .header h1 a:hover {
+	color:#261b0f;
+}
+
+
+
+
+
+.main_footer {
+	border-top:#DDD 4px double;
+	background:#FFF;
+	text-align:center;
+	padding:20px;
+}
+a, a.edit, .header h1 a.edit {
+	color:#A39D8C;
+}
+a:hover, a.edit:hover, .header h1 a.edit:hover {
+
+}
+
+h2.post_title a {
+	color:#5C5C5C;
+}
+
+
+.top_nav_container {
+	padding:6px 20px 7px 20px;
+	background:#261b0f;
+	font-weight:bold;
+	color:#c4baa0;
+}
+.top_nav_container a, .top_nav_container a:visited {
+	color:#FFF;
+}
+.top_nav_container a:hover {
+	color:#FFF;
+}
+
+
+.sub_menu li a.current_menu_item, .sub_menu li a.current_menu_item:visited {
+	color:#FFF;
+}
+.sub_menu li a.hidden, .sub_menu li a.hidden:visited {
+	color:#9B9B9B;
+}
+
+
+
+.content_container, .sas_container, .main_footer {
+	background:#FFFFFF;
+}
+.sas_container {
+	margin:0px;
+padding:30px 5px;
+}
+
+
+.post_container {
+	border-bottom:4px double #DDD;
+}
+
+.post_info li  {
+	color:#666666;
+}
+.post_comment {
+	font-size:90%;
+}
+.post_comments_list {
+
+}
+.post_comments_list li {
+	border-bottom:1px dotted #DDD;
+}
+.post_comments_list .comment_author {
+	font-weight:bold;
+}
+.post_comments_list .comment_date {
+	font-size:80%;
+}
+
+
+
+
+
+
+
+/* widgtes */
+
+.widget-nav .selected {
+	color:#333;
+}
+
+
+
+
+
+
+.pagenation {
+	padding:10px 0;
+	text-align:center;
+}
+.pagenation span a, .pagenation .page-current{
+	padding:2px 4px;
+	margin:4px;
+	border:1px solid #D05C1F;
+}
+.pagenation span a:hover {
+	background:#FFFFFF;
+}
+.pagenation .page-current {
+	background:#FFFFFF;
+}
+
+
